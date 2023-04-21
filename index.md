@@ -19,14 +19,6 @@
 		    "label": "Region",
 		    "value": "AMER"
 		    "transcriptFields":[ "Region__c" ]
-		}, {
-		    "label": "Language",
-		    "value": "English"
-		    "transcriptFields":[ "Language__c" ]
-		}, {
-		    "label": "Type",
-		    "value": "Sales"
-		    "transcriptFields":[ "Type__c" ]
 		} ]; 
 
 		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
