@@ -17,7 +17,7 @@
 
 		embedded_svc.settings.extraPrechatFormDetails = [ {
 		    "label": "Region",
-		    "value": "AMER",
+		    "value": "EMEA",
 		    "transcriptFields":[ "Region__c" ]
 		}, {
 		    "label": "Language",
