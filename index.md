@@ -16,21 +16,18 @@
 		embedded_svc.settings.language = 'en-US';
 
 		embedded_svc.settings.extraPrechatFormDetails = [ {
-            "label": "Region",
-            "value": "AMER"
-            "transcriptFields":[ "Region__c" ],
-            "displayToAgent": true
-        }, {
-            "label": "Language",
-            "value": "English"
-            "transcriptFields":[ "Language__c" ],
-            "displayToAgent": true
-        }, {
-            "label": "Type",
-            "value": "Sales"
-            "transcriptFields":[ "Type__c" ],
-            "displayToAgent": true
-        } ]; 
+		    "label": "Region",
+		    "value": "AMER"
+		    "transcriptFields":[ "Region__c" ]
+		}, {
+		    "label": "Language",
+		    "value": "English"
+		    "transcriptFields":[ "Language__c" ]
+		}, {
+		    "label": "Type",
+		    "value": "Sales"
+		    "transcriptFields":[ "Type__c" ]
+		} ]; 
 
 		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 		embedded_svc.settings.entryFeature = 'LiveAgent';
